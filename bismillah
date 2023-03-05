@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>companyform</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+    <?php
+
+    include "connection.php";
+    error_reporting(0); 
+
+    if(isset($_GET['CompanyCode'])){
+
+
+        $Companycode = $_GET["Name"];
+
+        $Name = $_GET["Name"];
+        $Address = $_GET["Address"];
+        $Contact = $_GET["Contact"];
+        $Email = $_GET["Email"];
+        $Contactperson = $_GET["Contactperson"];
+
+        echo  $Companycode ;
+
+    }
+
+    else {
+        
+        echo "There is error";
+    }
+
+
+    ?>
+
+    <br>
+    <div class ="forms">
+        <h5>Company Information</h5>
+        <div class ="for1">
+            
+        <form method="get">
+
+            <input type="text" placeholder= "CompanyCode" name="CompanyCode" value=" <?php echo  $Companycode ; ?>" ><br>
+            <input type="text" placeholder= "Name" name="Name"  value="<?php echo $Name ; ?>"> <br>
+            <input type="text" placeholder= "Address" name="Address"  value="<?php echo  $Address ; ?>"> <br>
+            <input type="text" placeholder= "Contact" name="Contact"  value="<?php echo $Contact; ?>"> <br>
+            <input type="text" placeholder= "Email" name="Email"  value="<?php echo   $Email ; ?>"><br>
+            <input type="text" placeholder= "Contactperson" name="Contactperson"  value="<?php echo  $Contactperson ; ?>"><br>
+            <input type="submit" placeholder= "Submit" name="ubsubmit" class ="submit" ><br> 
+        
+        </form>
+        </div>
+    </div>
+    <?php
+    if(isset($_POST["Submit"])){
+        $Companycode = $_GET["Companycode"];
+
+        $Name = $_POST["Name"];
+
+        $Address = $_POST["Address"];
+
+        $Contact = $_POST["Contact"];
+
+        $Email = $_POST["Email"];
+        
+        $Contactperson = $_POST["Contactperson"];
+
+$updatequery = "upadate companyform set  Name ='$Name', Address ='$Address', Contact='$Contact',
+Email ='$Email', Contactperson ='$Contactperson' where Companycode ='$Companycode'";
+$result = $dbconnection->query($updatequery);
+if($result){
+    header("location:company.php");
+}
+
+else{
+    echo $dbconnection->connect_error;
+}
+
+    }
+
+?>
+</body>
+</html>
+
+
+
+
+$updatelinked = "update.php?" . $row["Companycode"].$row["Name"]
+
+.$row["Address"]. $row["Contact"] .$row["Email"]. $row["Contactperson"];
+$table2.="<td>" .'<a href= "'.$updatelinked.'" class="updatebtn">Update </a>'  ."</td>";

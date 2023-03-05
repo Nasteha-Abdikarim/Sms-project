@@ -1,0 +1,423 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+.header{
+    width: 19%;
+
+    /* background-color: #3C6255; */
+    background-color:  #61876E;
+
+
+    
+    
+    color: white;
+    position: fixed;
+    height: 100vh;
+    padding: 8px;
+}
+.header img{
+    width: 60px;
+}
+span{
+    color: rgb(211, 129, 29);
+    font-size: 45px;
+}
+.image{
+    font-size: 45px;
+     display: flex;
+     margin-left: -5px;
+     /* color: black; */
+     color: white;
+  
+}
+.image h6{
+    margin-top: 3px;
+    margin-left: -8px;
+}
+
+.header h1{
+    /* margin-left: 10px; */
+    font-size: 22px;
+    margin-top: 28px;
+    font-style: italic;
+    color: black;
+
+    font-weight: bold;
+
+}
+
+.header ul li {
+    list-style: none;
+    margin-left: 32px;
+    margin-top: 16px;
+
+    font-size:  22px;
+}
+.header ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav{
+
+    margin-left:20%;
+    display: flex;
+    justify-content:space-between;
+   /* background-color:  rgb(211, 129, 29); */
+   background-color: #3C6255;
+
+ 
+ 
+    
+}
+.nav ul li {
+  color: white;
+  padding: 15px;
+    display:inline-block;
+   
+}
+
+.icon{
+ 
+    font-size: 24px;
+}
+
+.iccon{
+  color: white;
+    font-size: 24px;
+    /* padding-top: 5px; */
+    /* padding-left: 5px; */
+    padding: 15px;
+    
+
+ 
+}
+
+.dashboard{
+  margin-top: 30px;
+    margin-left:20%;
+    display: flex;
+    justify-content:space-between;
+    font-size: 25px;
+    padding: 10px;
+
+    
+}
+
+.total{
+    
+        margin-top: 20px;
+        margin-right: 40px;
+          margin-left:21%;
+          display: flex;
+          justify-content:space-between;
+          font-size: 20px;
+          padding: 10px;
+          box-shadow: 1px 1px 1px 1px rgb(77, 77, 77);
+      
+          
+      }
+      .to1{
+        display: flex;
+          }
+
+          .toa{
+            font-size: 55px;
+            color: rgb(211, 129, 29);
+          }
+          .tob{
+            padding-top: 4px;
+            padding-left: 4px;
+
+          }
+
+          .forms{
+         
+            margin-left: 22%;
+          }
+
+          .forms h5{
+            font-size: 25px;
+          }
+
+          .for1 input{
+            height: 35px;
+            width: 380px;
+            margin: 7px;
+          }
+
+          .for1 input[type ="text"]{
+            font-size: 15px;
+            padding-left: 10px;
+         
+          }
+
+
+          .for1 .submit{
+            background-color: rgb(211, 129, 29) ;
+            border: none;
+            width: 160px;
+            margin-left: 30px;
+            border-radius: 3px;
+            font-size: 20px;
+          }
+
+.main{
+  margin-left: 21%;
+  margin-right: 3px;
+}
+
+ table{
+  margin-top: 10px;
+
+
+
+  font-size: 20px;
+  text-align: center;
+  border-collapse: collapse;
+  width: 100%;
+
+  box-shadow: 1px 1px 3px 1px black;
+  
+ 
+ }
+
+ th{
+  /* padding: 5px; */
+  border:solid;
+  border-color: rgb(245, 244, 244);
+  padding: 10px;
+  
+  /* background-color: rgb(211, 129, 29) ; */
+
+ }
+
+ td{
+  padding: 5px;
+  border:solid;
+  border-color: rgb(245, 244, 244);
+ }
+
+ .deleteBtn1{
+  color: white;
+  background-color: rgb(158, 60, 60);
+  /* width: 30px; */
+  text-align: center;
+  padding: 4px;
+  border-radius: 5px;
+  font-size: 20px;
+ }
+
+ .ubpdateBTN{
+  color: white;
+  background-color: rgb(70, 224, 70);
+  /* width: 30px; */
+  text-align: center;
+  padding: 4px;
+  border-radius: 5px;
+  font-size: 20px;
+ }
+
+ 
+
+ .company{
+  /* margin-top: 3px; */
+    /* margin-left:20%; */
+    /* display: flex;
+    justify-content:space-between;
+    font-size: 7px;
+    padding: 5px;
+    margin-left: -5px; */
+
+    /* margin-top: 30px;
+    margin-left:20%; */
+    display: flex;
+    justify-content:space-between;
+    font-size: 25px;
+    padding: 10px;
+    
+}
+
+.add button{
+  /* background-color: rgb(158, 60, 60); */
+  /* background-color: rgb(0, 34, 0); */
+  background-color: rgb(211, 129, 29);
+
+  border: none;
+  border-radius: 6px;
+  padding: 8px;
+   
+}
+
+.add button a{
+  text-decoration: none;
+  font-size: 20px;
+
+  color: black;
+
+}
+
+.add{
+  display: flex;
+ justify-content: space-between;
+}
+
+.search input{
+  margin-right: 10px;
+  padding: 10px;
+  width: 150px;
+  height: 20px;
+  border: none;
+  box-shadow: 1px 0px 1px 1px rgb(195, 193, 193);
+}
+
+.search input[type ="text"]{
+  font-size: 20px;
+}
+
+.search1{
+  margin-left: 22%;
+  
+
+}
+
+.search1 .sears{
+  background-color: rgb(211, 129, 29) ;
+  border: none;
+  width: 160px;
+  height: 40px;
+  margin-left: 1px;
+  border-radius: 3px;
+  font-size: 20px;
+  /* margin-top: 1%; */
+}
+
+.search1 input{
+  width: 230px;
+  height: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+}
+
+.search1 input[type ="text"]{
+  font-size: 18px;
+}
+
+
+
+.search1 h6 {
+font-size: 25px;
+/* margin-top: -2%; */
+}
+
+.profile{
+  margin-top: 30px;
+  margin-left: 300px;
+  margin-right: 300px;
+  margin-bottom: 30px;
+  /* justify-content: center; */
+  padding: 50px;
+  padding-left: 250px;
+  box-shadow: 2px 2px 2px 2px rgb(141, 138, 138);
+  background-color: rgb(246, 243, 243) ;
+}
+
+hr {
+  margin-top: 10px;
+  width: 300px;
+  border: 1px  solid;
+  margin-bottom: 10px;
+}
+
+.pro2 img{
+  /* text-align: center; */
+  width: 300px;
+  height: 300px;
+  border-radius: 6px;
+}
+
+.pro1 h4 {
+  /* text-align: ;: center; */
+  margin-left: 50px;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.pro1 h6 {
+
+  font-size: 25px;
+  margin-left:55px ;
+}
+
+.pro3 ul li {
+  /* text-align: center; */
+  text-align: justify;
+  list-style:none;
+  margin-left: 10px;
+  padding: 10px;
+  /* font-size: 15px; */
+}
+
+.pro3 {
+  text-align: justify;
+  font-size: 20px;
+  font-weight: bold;
+
+}
+
+.icons {
+  font-size: 20px;
+}
+
+.login  input {
+  width: 400px;
+  height: 40px;
+margin: 10px;
+  
+}
+
+.login{
+  margin: 100px;
+  margin-left: 400px;
+  margin-top: 200px;
+  margin-right: 400px;
+  /* padding: 150px; */
+ 
+  /* background-color: #285430; */
+}
+
+.login input[type ="text"]{
+  font-size: 20px;
+  
+}
+
+.login .loginbtn{
+  background-color: rgb(211, 129, 29) ;
+  border: none;
+  width: 160px;
+  height: 40px;
+  margin-left: 100px;
+  border-radius: 3px;
+  font-size: 20px;
+  /* margin-top: 1%; */
+}
+
+
+
+
+
+
+
+
+      
+
+
+
+     
+
+
+
+ 
